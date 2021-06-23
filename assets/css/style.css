@@ -1,0 +1,301 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+* {
+  font-family: "Prompt", sans-serif;
+}
+
+.container {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+/*========== Navigation Bar ===========*/
+
+.nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  line-height: 1.4em;
+  width: 100%;
+  height: 70px;
+  z-index: 9;
+  transition: 0.5s;
+}
+
+.nav-logo {
+  float: left;
+}
+.nav-menu {
+  float: right;
+}
+.nav-menu > ul {
+  margin: 0;
+}
+.nav-menu > ul > li {
+  display: inline;
+  margin-right: 15px;
+}
+
+/*======= background =========================================================*/
+
+.background {
+  background-image: url("../img/4860404.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.grid-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.top {
+  position: relative;
+  top: 130px;
+}
+
+.profile {
+  text-align: center;
+  border: 2px 1px solid #8a2be2;
+}
+
+.profile > img {
+  width: 430px;
+  border-right: 10px solid #8a2be2;
+  border-bottom: 15px solid #8a2be2;
+}
+
+.welcome-profile {
+  margin-top: 80px;
+}
+.welcome-profile > h3 {
+  font-size: 18px;
+  margin: 0;
+  color: #000000;
+}
+.welcome-profile > h1 {
+  margin: 0;
+  font-size: 60px;
+  color: #8a2be2;
+}
+.welcome-profile > p {
+  margin: 0;
+  font-size: 16px;
+  color: #858585;
+}
+
+.btn-about {
+  margin-top: 50px;
+  background-color: #8a2be2;
+  color: #fff;
+  border-radius: 50px;
+  border: 1px solid #770bdb;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+  box-shadow: 0 0 6px #8a2be2;
+}
+
+.social {
+  position: absolute;
+  width: 100%;
+  bottom: 25px;
+}
+
+.social-menu {
+  text-align: center;
+}
+.fa-menu {
+  margin: 8px;
+  width: 60px;
+  height: 60px;
+  transition: 0.1s;
+  position: relative;
+  color: #8a2be2;
+  border: 2px solid #8a2be2;
+  box-shadow: 0 0 2px #8a2be2;
+  border-radius: 50px;
+  display: inline-block;
+}
+.fa-menu:hover {
+  background-color: #8a2be2;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 10px #8a2be2;
+}
+.icon {
+  position: absolute;
+  top: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ============ ABOUT =====================================================*/
+.about {
+  margin-top: 50px;
+}
+.title-about {
+  text-align: center;
+}
+.title-about > .textabout {
+  font-size: 50px;
+  margin: 0px;
+}
+
+.about-img {
+  height: 300px;
+  width: 300px;
+  padding: 8px;
+  margin: auto;
+  border-radius: 50%;
+  border: 8px solid #8400ff;
+}
+.about-img > img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.about-text {
+  margin-top: 50px;
+}
+.about-text > span {
+  font-size: 20px;
+  display: block;
+}
+
+/* ============ SKILL =====================================================*/
+.skills {
+  margin-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("../img/4853160.jpg");
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.title-skills {
+  padding-top: 50px;
+  text-align: center;
+}
+.title-skills > .textskill {
+  font-size: 50px;
+  margin: 0px;
+}
+.title-skills > .subskill {
+  margin: 0;
+}
+
+.skill-img {
+  text-align: center;
+}
+.skill-img > img {
+  width: 400px;
+}
+.info-skill {
+  text-align: center;
+}
+.grid-container > .card {
+  text-align: center;
+  margin: auto;
+  width: 200px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border: 2px solid #fbfbfb;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #8a2be2;
+}
+.grid-container > .card > img {
+  height: 55px;
+}
+.grid-container > .card > p {
+  margin: 0;
+  margin-top: 5px;
+}
+.grid-skill {
+  grid-template-columns: 201px 201px;
+}
+.grid-gap {
+  grid-gap: 15px;
+}
+
+.work-card {
+  height: 150px;
+  background-color: #8a2be2;
+}
+
+
+/* === footer ====*/
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .footer-social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .footer-social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .footer-social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+/* Credit to https://epicbootstrap.com/snippets/footer-basic */
