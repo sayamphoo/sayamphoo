@@ -26,9 +26,12 @@
 }
 
 @media screen and (max-width: 600px) {
-    .skil-grid {
-        grid-template-columns: 100%;
-      }
+  .skil-grid {
+    grid-template-columns: 100%;
+  }
+  .welcome-profile {
+    margin-top: 0px;
+  }
 }
 @media screen and (max-width: 500px) {
   .container {
@@ -65,5 +68,4 @@
     width: 250px;
     border-radius: 50%;
   }
-
 }
