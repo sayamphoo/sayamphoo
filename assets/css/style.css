@@ -4,7 +4,7 @@ html {
   height: 100%;
 }
 * {
-  font-family: "Prompt", sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 .container {
@@ -14,6 +14,16 @@ html {
 
 .width-100 {
   width: 100%;
+}
+
+.grid-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.center {
+  text-align: center;
 }
 
 /*========== Navigation Bar ===========*/
@@ -54,11 +64,6 @@ html {
   position: relative;
 }
 
-.grid-container {
-  position: relative;
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
 .top {
   position: relative;
   top: 130px;
@@ -145,13 +150,6 @@ html {
 .about {
   margin-top: 50px;
 }
-.title-about {
-  text-align: center;
-}
-.title-about > .textabout {
-  font-size: 50px;
-  margin: 0px;
-}
 
 .about-img {
   height: 300px;
@@ -235,67 +233,97 @@ html {
   background-color: #8a2be2;
 }
 
+/*============= ACTIVITY ===================================================*/
+
+.activity {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.title-activity {
+  text-align: center;
+}
+.title-activity > .textactivity {
+  font-size: 50px;
+  margin: 0px;
+}
+.title-activity > .subactivity {
+  margin: 0px;
+}
+
+.activity-row {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.activity-column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
 
 /* === footer ====*/
 
 .footer-basic {
-  padding:40px 0;
-  background-color:#ffffff;
-  color:#4b4c4d;
+  padding: 40px 0;
+  background-color: #fbfbfb;
+  color: #4b4c4d;
 }
 
 .footer-basic ul {
-  padding:0;
-  list-style:none;
-  text-align:center;
-  font-size:18px;
-  line-height:1.6;
-  margin-bottom:0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
 }
 
 .footer-basic li {
-  padding:0 10px;
+  padding: 0 10px;
 }
 
 .footer-basic ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.8;
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
 }
 
 .footer-basic ul a:hover {
-  opacity:1;
+  opacity: 1;
 }
 
 .footer-basic .footer-social {
-  text-align:center;
-  padding-bottom:25px;
+  text-align: center;
+  padding-bottom: 25px;
 }
 
 .footer-basic .footer-social > a {
-  font-size:24px;
-  width:40px;
-  height:40px;
-  line-height:40px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  border:1px solid #ccc;
-  margin:0 8px;
-  color:inherit;
-  opacity:0.75;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
 }
 
 .footer-basic .footer-social > a:hover {
-  opacity:0.9;
+  opacity: 0.9;
 }
 
 .footer-basic .copyright {
-  margin-top:15px;
-  text-align:center;
-  font-size:13px;
-  color:#aaa;
-  margin-bottom:0;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
 }
 
 /* Credit to https://epicbootstrap.com/snippets/footer-basic */

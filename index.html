@@ -5,24 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap"
-      rel="stylesheet"
-    />
     <script
       src="https://kit.fontawesome.com/ca46ff38cd.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/media.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/media.css" />
+    <link rel="stylesheet" href="assets/css/font.css" />
+
     <title>toomtam</title>
   </head>
   <body>
@@ -59,17 +57,24 @@
       </div>
       <div class="social">
         <div class="social-menu">
-          <div onclick="faClick()" class="fa-menu"><i class="fab fa-facebook-f icon"></i></div>
-          <div onclick="igClick()"class="fa-menu"><i class="fab fa-instagram icon"></i></div>
-          <div onclick="ytClick()"class="fa-menu"><i class="fab fa-youtube icon"></i></div>
+          <div onclick="faClick()" class="fa-menu">
+            <i class="fab fa-facebook-f icon"></i>
+          </div>
+          <div onclick="igClick()" class="fa-menu">
+            <i class="fab fa-instagram icon"></i>
+          </div>
+          <div onclick="ytClick()" class="fa-menu">
+            <i class="fab fa-youtube icon"></i>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="container">
       <div class="about">
-        <div class="title-about">
-          <p class="textabout">ABOUT</p>
+        <div class="center">
+          <p class="font-title">ABOUT</p>
+          <p class="font-subtitle">เกี่ยวกับผมอ่ะหรอไม่มีหรอก</p>
         </div>
         <div style="margin-top: 70px;" class="grid-container">
           <div class="about-img">
@@ -88,11 +93,12 @@
         </div>
       </div>
     </div>
+
     <div class="skills">
-      <div class="container">
-        <div class="title-skills">
-          <p class="textskill">SKILL</p>
-          <p class="subskill">ความสามรถอันน้อยนิดของผม</p>
+      <div style="padding-top:50px;" class="container">
+        <div class="center">
+          <p class="font-title">SKILL</p>
+          <p class="font-subtitle">ความสามรถอันน้อยนิดของผม</p>
           <div style="margin-top:70px" class="grid-container ">
             <div class="skill-img">
               <img src="assets/img/proflie2.jpg" />
@@ -107,8 +113,7 @@
                   <img src="assets/img/internet.png" />
                   <p>Web Dev</p>
                 </div>
-                <div class="card"> 
-
+                <div class="card">
                   <img src="assets/img/nodejs.png" />
                   <p>nodeJS</p>
                 </div>
@@ -131,12 +136,62 @@
       </div>
     </div>
 
+    <div class="activity">
+      <div class="container">
+        <div class="center">
+          <p class="font-title">ACTIVITY</p>
+          <p class="font-subtitle">มันคือกิจกรรมที่ผมทำมาตลอดชีวิตของผม</p>
+        </div>
+        <div class="activity-row">
+          <div style="margin-top: 50px"  class="activity-column">
+            <img src="assets/img/activity/img1.jpg" width="100%" />
+            <img src="assets/img/activity/img2.jpg" width="100%" />
+            <img src="assets/img/activity/img3.jpeg" width="100%" />
+            <img src="assets/img/activity/img4.jpg" width="100%" />
+            <img src="assets/img/activity/img18.jpg" width="100%" />
+            <img src="assets/img/activity/img19.jpg" width="100%" />
+      
+          </div>
+          <div class="activity-column">
+            <img src="assets/img/activity/img5.jpg" width="100%" />
+            <img src="assets/img/activity/img20.jpg" width="100%" />
+            <img src="assets/img/activity/img6.jpg" width="100%" />
+            <img src="assets/img/activity/img7.jpg" width="100%" />
+            <img src="assets/img/activity/img8.jpg" width="100%" />
+          </div>
+          <div style="margin-top: 30px"  class="activity-column">
+            <img src="assets/img/activity/img9.jpg" width="100%" />
+            <img src="assets/img/activity/img10.jpg" width="100%" />
+            <img src="assets/img/activity/img11.jpg" width="100%" />
+            <img src="assets/img/activity/img12.jpg" width="100%" />
+            <img src="assets/img/activity/img17.jpg" width="100%" />
+          </div>
+          <div style="margin-top: 20px"  class="activity-column">
+            <img src="assets/img/activity/img13.jpg" width="100%" />
+            <img src="assets/img/activity/img14.jpg" width="100%" />
+            <img src="assets/img/activity/img15.jpg" width="100%" />
+            <img src="assets/img/activity/img21.jpg" width="100%" />
+            <img src="assets/img/activity/img16.jpg" width="100%" />
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
     <div class="footer-basic">
       <footer>
         <div class="footer-social">
-          <a href="https://web.facebook.com/sayamphoo.n/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://www.instagram.com/__t_o_o_m/" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.youtube.com/channel/UCcpDXkA-jQkemyIKj7JG8rw" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://web.facebook.com/sayamphoo.n/" target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com/__t_o_o_m/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCcpDXkA-jQkemyIKj7JG8rw"
+            target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
         </div>
         <p class="copyright">Sayamphoo ©</p>
       </footer>
