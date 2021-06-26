@@ -16,6 +16,26 @@ function scrollFunction() {
   }
 }
 */
+let nav = document.getElementById("nav");
+let logo = document.getElementById("logo");
+window.onscroll = function() {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    nav.style.backgroundColor = "#fff";
+    nav.style.height = "70px";
+    nav.style.boxShadow = "0px 2px 6px #dadada";
+    logo.style.display = 'inline'
+  } else {
+    nav.style.height = "80px";
+    nav.style.background = "none";
+    nav.style.boxShadow = "none";
+    logo.style.display = 'none'
+  }
+}
+
 
 function faClick(){
   window.open("https://web.facebook.com/sayamphoo.n/", '_blank').focus();
